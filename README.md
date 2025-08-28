@@ -1,2 +1,2 @@
-# dependencyInjection
-Challenge Java Springboot Professional - Components and Dependency Injection
+# Comp-DepInjection_JSPro
+Component and Dependency Injection Challenge
