@@ -10,6 +10,6 @@ public class OrderService {
       
     public double total(Order order){
 
-        return (order.getBasicValue()-(order.getBasicValue())*(order.getDiscount()));
+        return (order.getBasicValue()-(order.getBasicValue())*(order.getDiscount()/100));
     }
 }

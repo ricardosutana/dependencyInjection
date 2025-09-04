@@ -25,7 +25,7 @@ public class Application implements CommandLineRunner{
 	}
 	@Override
 	public void run(String... args) throws Exception {
-		Order order = new Order(2282, 800.0, 0.1);
+		Order order = new Order(2282,800, 10.0);
 		System.out.println(order.getCode());
 		System.out.println(OrderService.total(order)+ShipmentService.shipment(order));	
 	}
